@@ -1288,7 +1288,6 @@ select.portfolio-filter-mobile {
 }
 .client-item .inner {
   text-align: center;
-  position: absolute;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1298,6 +1297,7 @@ select.portfolio-filter-mobile {
 }
 .client-item img {
   display: inline-block;
+  max-height: 80px;
 }
 
 /*=================================================================*/
